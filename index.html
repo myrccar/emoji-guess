@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>emoji guess</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500&display=swap" rel="stylesheet">
+    <link rel="icon" href="emoji_favicon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.5.1/dist/confetti.browser.min.js"></script>
+
+  </head>
+  <body onload="start()">
+    <h3 id="level">level: 1</h3>
+    <div class="main">
+    <h1 class="emoji_text" id="text">⌚loading...</h1>
+    <div class="inp" id="div">
+      <input class="input" id="inp" autocomplete="off"/>
+      <button id="btn" onclick="enter()">enter</button>
+    </div>
+    </div>
+    <h2 class="help">instructions: type what text you think matchs the emoji(s). no cercters,upercase leters,numbers.</h2>
+    <script src="script.js"></script>
+  </body>
+</html>
